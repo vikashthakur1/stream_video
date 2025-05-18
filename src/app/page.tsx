@@ -1,5 +1,7 @@
 import MediaPlayer from '@/components/MediaPlayer';
 import Suggestion from '@/components/Suggestion';
+import DisplayComments from '@/components/DisplayComments'
+
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
                 <Suggestion />
               </div>
               <div>
+                  <DisplayComments />
               </div>
           </main>
           <footer className="p-4 text-center bg-pink-800">
