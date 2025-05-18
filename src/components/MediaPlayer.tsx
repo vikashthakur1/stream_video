@@ -11,7 +11,7 @@ export default function MediaPlayer() {
       url="https://skillcaptain-public.s3.ap-south-1.amazonaws.com/videos/database_index_without_music.mp4"
       width="100%"
       height="100%"
-      controls={false}
+      controls={true}
     />
   );
 }
