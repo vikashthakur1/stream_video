@@ -1,10 +1,11 @@
-import Button from './Button'
+import MediaPlayer from '@/components/MediaPlayer';
 
 export default function Home() {
   return (
-   <div>
-    <h1>We to my app</h1>
-    <Button/>
-   </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div>
+        <MediaPlayer />
+      </div>
+    </main>
   );
 }
